@@ -1,5 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const userList = { name: 'rana', age: 23 };
-console.log(userList);
+const formatValue = (value) => {
+    if (typeof value === "string") {
+        return value.toUpperCase();
+    }
+    else if (typeof value === "number") {
+        return (value * 10);
+    }
+    else {
+        return !value;
+    }
+};
+console.log(formatValue("hello"));
+console.log(formatValue(5));
+console.log(formatValue(true));
 //# sourceMappingURL=problem1.js.map
