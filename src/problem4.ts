@@ -1,9 +1,9 @@
-type Book = {
+type Allbook = {
   title: string;
   rating: number;
 };
 
-const filterByRating = (books: Book[]) : Book[] => {
+const filterByRating = (books: Allbook[]) : Allbook[] => {
   const ratedBooks = books.filter((book) => book.rating >= 4);
   return ratedBooks;
 };
