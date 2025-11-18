@@ -35,6 +35,8 @@ type Product = {
   discount?: number;
 };
 
+// time complexity: O(n)
+// space complexity: O(n)
 const calculateTotalPrice = (products: Product[]): number => {
   const newProducts = products.map((product) => {
     const totalPrice = product.price * product.quantity;
