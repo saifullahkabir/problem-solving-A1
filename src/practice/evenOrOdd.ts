@@ -1,5 +1,4 @@
-//* problem1:  Even or Odd
-
+//* Problem 1:  Even or Odd
 // Write a function that returns whether a number is even or odd.
 
 //* Example:
