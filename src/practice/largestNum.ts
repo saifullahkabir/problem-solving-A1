@@ -1,3 +1,8 @@
+//* Problem 2:  Largest Number
+
+// Given two numbers, return the larger number.
+//* max(10, 25) // 25
+
 
 const max = (num1: number, num2: number): number => {
   if (num1 > num2) {
@@ -10,3 +15,9 @@ const max = (num1: number, num2: number): number => {
 };
 
 console.log(max(10, 1)); // 10
+
+
+//* short version
+// const max = (a: number, b: number): number => {
+//   return a > b ? a : b;
+// };
