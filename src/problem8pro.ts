@@ -5,6 +5,7 @@ type Product = {
   discount?: number;
 };
 
+// better approach
 // time complexity: O(n)
 // space complexity: O(1)
 const calculateTotalPrice = (products: Product[]): number => {

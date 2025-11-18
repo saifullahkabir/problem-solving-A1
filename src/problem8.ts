@@ -35,6 +35,7 @@ type Product = {
   discount?: number;
 };
 
+// brute-force
 // time complexity: O(n)
 // space complexity: O(n)
 const calculateTotalPrice = (products: Product[]): number => {
