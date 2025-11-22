@@ -13,3 +13,19 @@ const countVowel = (str: string): number => {
 }
 
 console.log(countVowel("hello"));      // 2
+
+
+// using for of
+
+const countVowel = (str: string): number => {
+  let count = 0;
+  const vowels = "aeiouAEIOU";
+
+  for (const chr of str) {
+    if (vowels.includes(chr)) count++;
+  }
+
+  return count;
+}
+
+console.log(countVowel("hello"));
