@@ -3,3 +3,5 @@ const reverseString = (input: string): string => {
 };
 
 console.log(reverseString("hello"));
+console.log(reverseString("rana"));
+
